@@ -6,7 +6,10 @@ namespace Laboratory1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string userString = "";
+            Console.Write("Введите ваше имя и нажмите клавишу Enter: ");
+            userString = Console.ReadLine();
+            Console.WriteLine(userString);
         }
     }
 }
